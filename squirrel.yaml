@@ -90,12 +90,12 @@ preset_color_schemes:
     # 如果将字体设置为 PingFangSC-Regular
     # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。
     font_face: ""                   # 字体及大小
-    font_point: 18
+    font_point: 16
     label_font_face: "Helvetica"    # 序号字体及大小
     label_font_point: 12
     comment_font_face: "Helvetica"  # 注字体及大小
     comment_font_point: 16
-    # candidate_list_layout: stacked        # 候选项排列方向 stacked(默认) | linear
+    candidate_list_layout: linear        # 候选项排列方向 stacked(默认) | linear
     # text_orientation: horizontal          # 文字排列方向 horizontal(默认) | vertical
     inline_preedit: true                    # 键入码（拼音）是否显示在键入位置 true | false
     inline_candidate: false                 # 候选项（词句）是否显示在键入位置 true | false
